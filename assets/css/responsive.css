@@ -1,0 +1,414 @@
+/* --------------------------- below 1024px ------------------------*/
+
+@media screen and (max-width: 1100px) {
+    /* --- banner area ---*/
+
+    .banner-container h1{
+        font-size: 2.8rem !important;
+    }
+
+    .banner-container p{
+        font-size: 18px !important;
+    }
+
+    /* --- reader section --- */
+
+    .reader-box div{
+        width: 15% !important;
+    }
+
+    /* --- welcome section ---*/
+
+    .welcome-text .welcome-company{
+        padding-top: 0 !important;
+        font-size: 13px !important;
+    }
+
+    .welcome-text .welcome-header{
+        font-size: 2.5rem !important;
+    }
+
+    .welcome-text p{
+        font-size: 18px !important;
+    }
+
+    /* ---- testimonial section --- */
+
+    .user .user-info p{
+        font-size: 15px !important;
+    }
+
+    /*--- new release section --- */
+
+    .new-release-container .new-release{
+        width: 45% !important;
+        height: 300px !important;
+    }
+
+
+    /* --- top seller, book section --- */
+
+    .top-seller-container, .book-container{
+        justify-content: space-around !important;
+    }
+
+    .top-seller-container .top-seller, .book-container .book{
+        width: 25% !important;
+    }
+}
+
+/* ------------------------- below 890px -----------------------------*/
+
+@media screen and (max-width: 890px) {
+    /*--- global class ---*/
+
+    .btn{
+        padding: 1rem 1.5rem !important;
+    }
+
+    /*--- site title ---*/
+
+    .social, .site-name, .search-box{
+        width: 25% !important;
+        padding: 0 2rem !important;
+    }
+
+    /*--- book category ---*/
+
+    .book-category{
+        top: 0 !important;
+        margin: 80px 0 !important;
+    }
+
+    .children, .romance, .art, .history{
+        width: 30% !important;
+        height: auto !important;
+        margin: 5px 20px !important;
+    }
+
+    /*--- reader section ---*/
+
+    .reader-box div{
+        width: 20% !important;
+    }
+
+    .reader-box div h1{
+        font-size: 2.5rem !important;
+    }
+
+    .reader-box div p{
+        font-size: 13px !important;
+    }
+    
+    /*--- testimonial section ---*/
+
+    .client-word-container h1{
+        font-size: 2.5rem !important;
+    }
+
+    /*--- footer section ---*/
+
+    .site-info{
+        height: auto !important;
+    }
+
+
+    /*--- view page section --- */
+
+    #view-section{
+        width: 90% !important;
+    }
+
+    .book-profile{
+        width: 40% !important;
+    }
+
+    /* --- cart section --- */
+
+    .cart{
+        width: 80% !important;
+    }
+}
+
+/* ------------------------- below 780px ------------------------------*/
+
+@media screen and (max-width: 780px) {
+
+    /* --- navigation --- */
+
+    .nav .nav-menu{
+        display: block !important;
+    }
+
+    .nav-navbar{
+        display: none;
+    }
+
+    .nav-navbar ul{
+        padding: 0 1.5rem;
+        background: #000000;
+    }
+
+    .nav-navbar ul li{
+        display: block !important;
+        text-align: left !important;
+        padding: 0.8rem 1.5rem !important;
+        border-bottom: 1px solid transparent;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .nav-navbar ul li a{
+        color: #ffffff !important;
+    }
+
+
+    /* --- title section --- */
+
+    .title-container{
+        margin-bottom: 25px !important;
+    }
+
+    .search-box input{
+       padding: 0.9rem 8rem !important;
+    }
+
+    .social, .site-name, .search-box{
+        width: 80% !important;
+        height: 70px !important;
+    }
+
+    .hide{
+        display: none !important;
+    }
+
+    /* --- reader section --- */
+
+    .reader-box div{
+        width: 40% !important;
+    }
+
+    /* --- welcome section --- */
+
+    #blog{
+        margin-bottom: 0 !important;
+    }
+
+    #welcome-section{
+        margin: 100px 0 !important;
+    }
+
+    .welcome-image, .welcome-text{
+        width: 80% !important;
+    }
+
+    /* --- newrelease section --- */
+
+    .new-release-container .new-release{
+        width: 80% !important;
+    }
+
+    /* --- blog section --- */
+
+    .site-info{
+        height: 650px !important;
+    }
+
+    .blog-container .blog{
+        width: 45% !important;
+    }
+
+    /* --- footer section --- */
+
+    .site-info > div{
+        width: 40% !important;
+    }
+
+     /* --- top seller, book section --- */
+
+     .top-seller-container, .book-container{
+        justify-content: space-around !important;
+    }
+
+    .top-seller-container .top-seller, .book-container .book{
+        width: 28% !important;
+        margin: 0.5rem !important;
+        margin-bottom: 1rem !important;
+        border-radius: 2rem !important;
+    }
+
+    .top-seller .top-seller-list, .book .book-list{
+        display: block !important;
+    }
+
+    /* --- cart section --- */
+
+    .cart-header p{
+        visibility: hidden;
+    }
+
+
+}
+
+
+/* ------------------------- below 600px ---------------------------- */
+
+@media screen and (max-width: 600px) {
+
+    /* --- site title --- */
+
+    #site-banner{
+        text-align: center;
+        background: #ffedab !important;
+    }
+
+    .banner-container{
+        padding: 0 !important;
+        width: 100% !important;
+    }
+
+    .banner-container h1{
+        font-size: 2.5rem !important;
+        padding: 1rem;
+    }
+
+    .banner-container p{
+        letter-spacing: 0px !important;
+        padding: 1.5rem 2rem !important;
+        font-size: 15px !important;
+    }
+
+    .button-group{
+        margin-top: 20px;
+    }
+
+    /* --- book category section --- */
+
+    .category-list{
+        width: 70% !important;
+    }
+
+    .children, .romance, .art, .history{
+        width: 90% !important; 
+        margin-top: 50px !important;
+    }
+
+    /* ---new release section --- */
+
+    .new-release-container .new-release{
+        height: 250px !important;
+    }
+
+
+    /* --- blog section --- */
+
+    .blog-container .blog{
+        width: 100% !important;
+    }
+
+
+    /* --- footer section --- */
+
+    .site-info{
+        justify-content: center !important;
+        text-align: center;
+        padding: 0 !important;
+        height: auto !important;
+    }
+
+    .site-info > div p{
+        padding-right: 0 !important;
+    }
+
+    .site-info > div{
+        width: 80% !important;
+    }
+
+     /* --- top seller, book section --- */
+
+     .top-seller-container, .book-container{
+        justify-content: space-around !important;
+    }
+
+    .top-seller-container .top-seller, .book-container .book{
+        width: 40% !important;
+    }
+
+    /*--- view page section --- */
+
+    .view{
+        justify-content: start !important;
+    }
+
+    .book-profile{
+        width: 80% !important;
+    }
+
+    .book-description{
+        width: 100% !important;
+    }
+}
+
+
+/* ------------------------ below 420px ------------------------------ */
+
+@media screen and (max-width: 480px) {
+
+    /* --- site title --- */
+
+    .search-box input{
+        padding: 0.9rem 4rem !important;
+     }
+
+
+     /* --- welcome section --- */
+
+     .welcome-image{
+         width: 100% !important;
+     }
+
+     /* --- new release section --- */
+
+     .new-release-container .new-release{
+         width: 100% !important;
+     }
+
+
+
+     /* --- reader section --- */
+     
+     .reader-box div{
+        height: 120px !important;
+
+     }
+
+      /* --- top seller, book section --- */
+
+    .top-seller-container, .book-container{
+        justify-content: space-around !important;
+    }
+
+    .top-seller-container .top-seller, .book-container .book{
+        width: 70% !important;
+    }
+
+
+    /* --- cart section --- */
+
+    .cart-image{
+        width: 80% !important;
+    }
+
+    .cart-info{
+        width: 80% !important;
+    }
+
+    .cart-info h3{
+        font-weight: bold !important;
+    }
+
+    .price-container .price{
+        font-size: 1.1rem !important;
+    }
+
+}
+
